@@ -13,6 +13,9 @@ app.get('/about',(req,res)=>{
     res.render("about",{titulo:'Título del about'});
 });
 
+app.get('/servicios',(req,res)=>{
+    res.render("about",{titulo:'Título del Servicio'});
+});
 
 const port=process.env.PORT || 3000;
 
